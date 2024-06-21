@@ -137,7 +137,7 @@ class User {
     String? session = await Manager.loadSessionToken();
     String? csrf = await Manager.loadCsrfToken();
 
-    final _user = userHandle;
+    final _user = userID;
 
     final response = await http.get(
       Uri.parse('https://fiicen.jp/circle/block/field/$_user/$page/'),

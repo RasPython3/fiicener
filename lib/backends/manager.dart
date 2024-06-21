@@ -114,7 +114,7 @@ class Manager {
     String introduce = iElement?.text ?? '';
 
     bool isFollowing = false;
-    dom.Element? isfol = document.querySelector("do-follow");
+    dom.Element? isfol = document.querySelector(".do-follow");
     if (isfol?.attributes["style"] == "display: none;") {
       isFollowing = true;
     }
