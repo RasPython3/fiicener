@@ -373,7 +373,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             return ListTile(
                               title: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
+                                children: [Text('waaaaa'),
                                   circle.reflew_name != null
                                       ? Column(
                                           crossAxisAlignment: CrossAxisAlignment.start,
